@@ -37,7 +37,7 @@ class KartaProduktu
     {
        echo
        "  
-       <a href='../sklep/product/?id=$this->id'>
+       <a href='".ADDRESS."product/?id=$this->id'>
        <div class='produkt'>
         <img src='base/$this->img' alt='$this->nazwa'>
         <p class='p_nazwa'> $this->nazwa </p>  
