@@ -1,0 +1,62 @@
+#dane fieldset {
+    height: 10mm;
+    width: 80mm;
+    border: 1mm dimgrey solid;
+    border-radius: 2mm;
+    margin-bottom: 5mm;
+    padding-bottom: 5mm;
+    font-size: 4mm;
+}
+#dane fieldset input {
+    width: 70mm;
+    margin-right: 2mm;
+    border: 0;
+    outline: none;
+    font-size: 5mm;
+    height: 8mm;
+}
+#dane fieldset a {
+    font-size: 6mm;
+    font-weight: bold;
+}
+#dane .good {
+    border-color: green;
+}
+#dane .bad {
+    border-color: red;
+}
+#dane .good a {
+    color: green;
+}
+#dane .bad a {
+    color: red;
+}
+#dane div {
+    display: flex;
+    flex-direction: row;
+}
+#dane #Ulica {
+    width: 40mm;
+}
+#dane #Ulica input {
+    width: 30mm;
+}
+#dane #Nr {
+    width: 30mm;
+}
+#dane #Nr input {
+    width: 20mm;
+}
+#dane #Kod_pocztowy {
+    width: 26mm;
+}
+#dane #Kod_pocztowy input{
+    width: 16mm;
+}
+#dane #Miasto {
+    width: 44mm;
+}
+#dane #Miasto input{
+    width: 34mm;
+}
+

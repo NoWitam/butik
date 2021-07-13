@@ -1,0 +1,59 @@
+#zamow_mid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20mm;
+    height: 100%;
+    width: 100%;
+}
+#zamow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 0 10mm;
+    padding: 10mm;
+}
+#zamow #bot {
+    font-size: 8mm;
+    font-family: Arial;
+    width: 100%;
+}
+#zamow #bot .left {
+        float: left;
+        display: inline;
+        margin-top: 5mm;
+        margin-bottom: 5mm;
+
+}
+#zamow #bot .right {
+        float: right;
+        display: inline;
+        margin-top: 5mm;
+        margin-bottom: 5mm;
+}
+#zamow #bot #submit {
+        border-radius: 2mm;
+        background-color: forestgreen;
+        color: white;
+        cursor: pointer;
+        border: 0;
+        outline: none;
+        font-weight: bold;
+        font-size: 8mm;
+        transition: 0.4s;
+        padding: 0;
+        padding-top: 2mm;
+        padding-bottom: 2mm;
+        padding-left: 5mm;
+        padding-right: 5mm;
+}
+#zamow #bot .hover:hover {
+        background-color: darkolivegreen;
+        color: #f0f0f0;
+}
+#zamow h1 {
+    text-align: center;
+    font-size: 4mm;
+}

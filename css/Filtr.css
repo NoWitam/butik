@@ -1,0 +1,104 @@
+#filtr {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    padding-left: 5mm;
+    padding-right: 5mm;
+    background-color:  	#73542F;
+    color: #2C1B01;
+    box-shadow: 1mm 3mm 3mm black;
+    font-family: Tahoma;
+    /* border-bottom-right-radius: 25px;
+     border-top-right-radius: 25px; */
+}
+#filtr_mid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding-top:20mm;
+    width: 100%;
+}
+.form_napis {
+    margin: 0;
+    margin-bottom: 4mm;
+    margin-top: 4mm;
+    font-family: Impact;
+    font-size: 6mm;
+}
+#filtr label {
+    font-size: 4mm;
+    font-weight: bold;
+    cursor: pointer;
+}
+#filtr input[type='checkbox'] {
+    width: 4mm;
+    height: 4mm;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+#filtr .roz {
+    height: 8mm;
+    width: 8mm;
+    padding: 1mm;
+    border: 1mm #2C1B01 solid;
+    background: #C3B091;
+    border-radius: 3mm;
+    transition-duration: 0.5s;
+}
+#roz38:checked ~ #for38, #roz39:checked ~ #for39, #roz40:checked ~ #for40, #roz41:checked ~ #for41, #roz42:checked ~ #for42, #roz43:checked ~ #for43 {
+    background-color: #2C1B01;
+    color: #C3B091;
+
+}
+#filtr fieldset {
+    display: inline;
+    border: 0.6mm #2C1B01 solid;
+    border-radius: 2mm;
+    margin-bottom: 20mm;
+}
+#filtr fieldset legend {
+    font-size: 4.5mm;
+    font-weight: bold;
+}
+#filtr fieldset input {
+    width: 16mm;
+    height: 3.5mm;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    margin-left: -1mm;
+    font-size: 4mm;
+    color: #2C1B01;
+    font-weight: bold;
+}
+#filtr input[type='submit'] {
+    padding-top: 1.6mm;
+    padding-bottom: 1.6mm;
+    padding-right: 7.6mm;
+    padding-left: 7.6mm;
+    font-size: 6mm;
+    position: absolute;
+    bottom: 3mm;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2C1B01;
+    border: 0.8mm #2C1B01 solid;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8mm;
+    background-color: #C3B091;
+}
+#filtr input[type='submit']:hover {
+    background-color: #2C1B01;
+    color: #C3B091;
+    transition: 0.6s;
+}

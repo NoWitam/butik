@@ -1,0 +1,116 @@
+#pasek {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20mm;
+    background-color: #2C1B01;
+    box-shadow: 0mm 1mm 2mm;
+    z-index: 5;
+}
+#logo {
+    cursor: pointer;
+    margin-left: 16mm;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    font-size: 12mm;
+    font-weight: bold;
+    color: #BD9460;
+    line-height: 20mm;
+    font-family: Palatino Linotype;
+}
+.ikona_div_checked {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-left:16mm;
+    margin-top: 1mm;
+    text-align:center;
+    height: 13mm;
+    width: 20mm;
+    border-radius: 50%;
+    background-color: #660033;
+}
+.ikona_div {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-left: 16mm;
+    margin-top: 3.5mm;
+    text-align:center;
+    height: 15mm;
+    width: 23mm;
+    border: 0;
+}
+.ikona_div img {
+    margin-top: 1mm;
+}
+.ikona_div:hover {
+    background-color: #660033;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+.ikona {
+    height: 6mm;
+    object-fit: scale-down;
+}
+.ikona_napis {
+    color: #BD9460;
+    font-weight: bold;
+    font-size: 3mm;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: Tahoma;
+}
+#kosz_kropka {
+    position: absolute;
+    top: -0.4mm;
+    right: 4.5mm;
+    height: 4.5mm;
+    width: 4.5mm;
+    border-radius: 50%;
+    background-color: #560023;
+}
+#kosz_kropka_napis {
+    margin: 0;
+    position: absolute;
+    left:50%;
+    top:50%;
+    font-size: 3.6mm;
+    font-family: Impact;
+    transform: translate(-50%, -50%);
+    color: 	#BD9460;
+}
+#szukaj {
+    float: right;
+    position: relative;
+    margin-right: 4mm;
+    border-radius: 4mm;
+    border: 1.2mm #73542F solid;
+    margin-top: 4.3mm;
+    height: 9mm;
+    width: 80mm;
+    background-color: #c2bd94;
+}
+#szukaj_input {
+    height: 100%;
+    width: 65mm;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    outline: none;
+    margin-left: 4mm;
+    font-size: 4.2mm;
+    color: #73542F;
+}
+#szukaj_ikona {
+    height: 5.2mm;
+    object-fit: scale-down;
+    position: absolute;
+    top: 50%;
+    right: 2mm;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

@@ -1,0 +1,223 @@
+#productpage {
+    position: absolute;
+    top: 40mm;
+    left: 50%;
+    background-color: white;
+    box-shadow: 2mm 5mm 5mm black;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+}
+#productpage h1 {
+    text-align: center;
+    margin-top: 8mm;
+    margin-bottom: 0mm;
+    font-size: 14mm;
+    font-weight: normal;
+    color: darkslategray;
+    font-family: Comic Sans MS;
+}
+#productpage h2 {
+    color: #2C1B01;
+    text-align: center;
+    font-size: 12.5mm;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    font-family: DejaVu Sans Mono;
+}
+#productpage #inne {
+    font-size: 4mm;
+    font-family: Impact;
+    cursor: pointer;
+    color: darkslategray;
+}
+#productpage fieldset {
+    border: 1mm solid lightgrey;
+    border-radius: 2mm;
+}
+#productpage fieldset hr {
+    background-color: lightgrey;
+    height: 0.8mm;
+    border: 0;
+}
+#productpage .text {
+    font-size: 4.5mm;
+    color: #2C1B01;
+    font-weight: bold;
+    font-family: Georgia;
+}
+#productpage a {
+    text-decoration: none;
+}
+#productpage .text a {
+    float: right;
+    font-size: 7mm;
+    font-family: Comic Sans MS;
+    transform: translateY(-2.6mm);
+    color: darkred;
+}
+#productpage select {
+    border: 0mm;
+    border-radius: 2mm;
+    font-size: 4mm;
+    background-color: lightgrey;
+    color: #2C1B01;
+    font-weight: bold;
+    float: right;
+    margin-right: 2mm;
+    width: 12mm;
+    height: 8mm;
+    transform: translateY(-1.5mm);
+}
+#productpage #inne:hover {
+    border-bottom: 0.8mm solid darkslategray;
+}
+#productpage #mid {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10mm;
+    align-items: center;
+    margin-top: 10mm;
+}
+#productpage #asd {
+width: 100%;
+}
+#productpage img {
+    height: 100mm;
+    margin-left: 20mm;
+    margin-right: 10mm;
+}
+#productpage form {
+    float: right;
+    margin-right: 20mm;
+    margin-left: 10mm;
+
+}
+#productpage #abled {
+    text-align: center;
+    cursor: pointer;
+    border: 0.8mm solid dimgrey;
+    border-radius: 2mm;
+    background-color: forestgreen;
+    height: 14mm;
+    margin: 4mm;
+    color: white;
+    font-weight: bold;
+    font-size: 5mm;
+}
+#productpage #disabled {
+    text-align: center;
+    border: 0.8mm solid dimgrey;
+    border-radius: 2mm;
+    background-color: forestgreen;
+    height: 14mm;
+    margin: 4mm;
+    color: white;
+    font-weight: bold;
+    font-size: 5mm;
+    box-shadow: inset 0 0 20mm 4mm black;
+}
+#productpage #abled:hover {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+}
+#productpage select {
+    cursor: pointer;
+}
+#productpage #inne {
+    cursor: pointer;
+}
+#productpage #details {
+    margin-left: 20mm;
+    margin-right: 20mm;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#productpage #details-text {
+    flex-grow: 4;
+    min-width: 90mm;
+    margin-right: 6mm;
+}
+#productpage #details-opis {
+    flex-grow: 1;
+    margin-left: 6mm;
+}
+#productpage .detal {
+    font-size: 8mm;
+    margin-left: 2mm;
+    font-weight: bold;
+}
+#productpage .left {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+#productpage .right {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+#productpage .left a {
+    margin-left: 2mm;
+}
+#productpage .right a {
+    margin-right: 2mm;
+}
+#zadyma {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+#zadyma #powiadomienie {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10mm;
+    background-color: whitesmoke;
+    box-shadow: 0 0 12mm;
+}
+#zadyma #powiadomienie h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 10mm;
+    font-family: Comic Sans MS;
+}
+#zadyma #powiadomienie input {
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    height: 15mm;
+    width: 45mm;
+    cursor: pointer;
+    border-radius: 2mm;
+    font-size: 4mm;
+    font-family: Georgia;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#zadyma #powiadomienie #koszyk {
+    float: left;
+    background-color: forestgreen;
+    color: white;
+    border: 1mm solid forestgreen;
+}
+#zadyma #powiadomienie #koszyk:hover {
+    background-color: darkolivegreen;
+    border: 1mm solid darkolivegreen;
+    color: #f0f0f0;
+}
+#zadyma #powiadomienie #zakupy {
+    float: right;
+    background-color: whitesmoke;
+    border: 1mm solid black;
+}
+#zadyma #powiadomienie #zakupy:hover {
+    box-shadow: inset 0 0 5mm 0mm #c0c0c0;
+}

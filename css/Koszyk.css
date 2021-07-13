@@ -1,0 +1,213 @@
+body {
+}
+#koszyk_mid {
+    position: absolute;
+    margin-top: 20mm;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin-bottom: 40mm;
+    height: 100%;
+}
+#koszyk {
+    position: absolute;
+    left: 50%;
+    top: 40mm;
+    min-height: 150mm;
+    width: 300mm;
+    background-color: white;
+    transform: translateX(-50%);
+    box-shadow: 1mm 2mm 4mm;
+    clear: both;
+}
+.item {
+    margin-top: 10mm;
+    margin-left: 10mm;
+    height: 40mm;
+}
+.item .left {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.item .top {
+    width: auto;
+    display: flex;
+}
+.item img {
+    height: 40mm;
+    cursor: pointer;
+    float: left;
+}
+.item .nazwa {
+    font-size: 10mm;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 6mm;
+    cursor: pointer;
+}
+.item a:link{
+    text-decoration:none;
+    color: black;
+}
+.item a:active{
+    text-decoration:none;
+    color: black;
+}
+.item a:visited{
+    text-decoration:none;
+    color: black;
+}
+.item .model {
+    font-size: 6mm;
+    font-weight: bold;
+    color: grey;
+    margin-left: 6mm;
+}
+.item .rozmiar {
+    font-size: 6mm;
+    font-weight: bold;
+    color: grey;
+    float: right;
+    margin-left: 8mm;
+}
+.item .bot {
+    margin-top: 4mm;
+    margin-left: 6mm;
+}
+.item .bot fieldset {
+    width: 15mm;
+    padding: 2mm;
+    padding-top: 0;
+    padding-bottom: 1mm;
+    border: 1mm solid black;
+    border-radius: 2mm;
+    float: left;
+}
+.item .bot legend {
+    color: black;
+    font-size: 6mm;
+    text-align: center;
+}
+.item .bot fieldset input {
+    height: 8mm;
+    width: 18mm;
+    font-size: 6mm;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    border: 0
+}
+.item .bot input[type='submit'] {
+    margin-left: 5mm;
+    margin-right: 5mm;
+    font-size: 5mm;
+    font-family: Impact;
+    background-color: transparent;
+    cursor: pointer;
+    width: 40mm;
+    height: 12mm;
+    transition: 0.4s;
+    outline: none;
+    border: 0;
+    border-radius: 2mm;
+    padding: 0;
+    margin-top: 3mm;
+}
+.item .bot input[type='submit']:hover {
+    background-color: #c9c9c9;
+}
+.item .bot svg {
+    height: 4mm;
+    width: 4mm;
+}
+.item .bot .dostepny {
+    fill: green;
+    r: 2mm;
+    cx: 2mm;
+    cy: 2mm;
+}
+.item .bot .niedostepny {
+    fill: red;
+    r: 2mm;
+    cx: 2mm;
+    cy: 2mm;
+}
+.item .bot .adostepny {
+    color: green;
+    font-size: 4mm;
+}
+.item .bot .aniedostepny {
+    color: red;
+    font-size: 4mm;
+}
+#koszyk hr {
+    margin-left: 10mm;
+    margin-top: 4mm;
+   margin-right: 10mm;
+}
+.item .right {
+    float: right;
+    margin-right: 10mm;
+    font-size: 8mm
+}
+.item .right .cena {
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 2mm;
+    outline: none;
+    text-align: center;
+}
+.item .right input[type='submit'] {
+    border: 0;
+    background-color: transparent;
+    font-size: 4mm;
+    color: dimgrey;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+    padding: 0;
+}
+.item .right input[type='submit']:hover {
+   border-bottom: 0.2mm solid dimgrey;
+}
+#koszyk #naglowek {
+    margin-left: 10mm;
+    font-size: 10mm;
+}
+#koszyk #zamow {
+    float: right;
+    margin-right: 10mm;
+    font-size: 6mm;
+    font-weight: bold;
+}
+#koszyk #zamow #cena a {
+    margin-left: 30mm;
+    font-size: 8mm;
+}
+#koszyk #zamow input[type='submit'] {
+    float: right;
+    background-color: forestgreen;
+    color: white;
+    height: 15mm;
+    width: 45mm;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2mm;
+    font-size: 7mm;
+    font-weight: bold;
+    margin-bottom: 5mm;
+    outline: none;
+    transition: 0.4s;
+}
+#koszyk #zamow input[type='submit']:hover {
+    background-color: darkolivegreen;
+    color: #f0f0f0;
+}
+#whitespace {
+    width: 100%;
+    height: 20mm;
+    position: absolute;
+    bottom: -40mm;
+}

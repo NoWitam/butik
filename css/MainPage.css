@@ -1,0 +1,35 @@
+#produkty {
+    position: absolute;
+    top: 30mm;
+    left: 100mm;
+}
+.produkt {
+    height: 90mm;
+    width: 60mm;
+    float: left;
+    padding-left: 4mm;
+    padding-right: 4mm;
+    padding-bottom: 4mm;
+    padding-top: 2mm;
+    background-color: 	white;
+    box-shadow: 1mm 3mm 6mm grey;
+    margin-right: 20mm;
+    margin-bottom: 10mm;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+.produkt img {
+    width: 40mm;
+}
+.produkt .p_nazwa {
+    margin-top: 10mm;
+    font-size: 5.5mm;
+    font-family: DejaVu Sans Mono;
+}
+.produkt .p_cena {
+    margin-top: 10mm;
+    font-size: 7.8mm;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+}

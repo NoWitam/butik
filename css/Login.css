@@ -1,0 +1,65 @@
+#login_mid {
+    position: fixed;
+    left: 0;
+    top: 20mm;
+    width: 100%;
+    height: 100%;
+}
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10mm;
+    padding-left: 20mm;
+    padding-right: 20mm;
+    box-shadow: 0 0 10mm;
+}
+#login h1 {
+    text-align: center;
+    font-family: Tahoma;
+    margin-bottom: 15mm;
+}
+#login fieldset {
+    border-radius: 2mm;
+    margin-bottom: 10mm;
+    border-color: dimgrey;
+    height: 10mm;
+    width: 40mm;
+    padding: 3mm;
+}
+#login fieldset input {
+    font-size: 4mm;
+    border: 0;
+    outline: none;
+}
+#login input[type='submit'] {
+    height: 15mm;
+    width: 60mm;
+    border: 0;
+    border-radius: 2mm;
+    font-size: 6mm;
+    color: white;
+    background-color: forestgreen;
+    cursor: pointer;
+    outline: none;
+    font-family: Georgia;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#login input[type='submit']:hover {
+    background-color: darkolivegreen;
+    color: #f0f0f0;
+}
+#login p {
+    text-align: center;
+    color: red;
+}
+#login #create {
+	 cursor: pointer;
+	 text-decoration: none;
+}
+#login #create p {
+	  color: black;
+}

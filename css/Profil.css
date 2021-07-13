@@ -1,0 +1,217 @@
+#profil_mid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20mm;
+    height: 100%;
+    width: 100%;
+}
+#profil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200mm;
+    width: 400mm;
+    background-color: white;
+    box-shadow: 0 0 10mm;
+}
+#profil #menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 80mm;
+    border-right: 0.4mm dimgrey solid
+}
+#profil form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#profil form input {
+    cursor: pointer;
+    height: 20mm;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    font-size: 6mm;
+    transition: 0.4s;
+    padding: 0;
+}
+#profil form .bar {
+    width: 100%;
+}
+#profil form .bar-check {
+    width: 100%;
+    background-color: darkgray;
+}
+#profil form .bar:hover {
+    width: 100%;
+    background-color: darkgray;
+}
+#profil form .zielony {
+    width: 50mm;
+    border-radius: 2mm;
+    background-color: forestgreen;
+    color: white;
+}
+#profil form .hover:hover {
+    background-color: darkolivegreen;
+    color: #f0f0f0;
+}
+#profil #right {
+    position: absolute;
+    left: 80.04mm;
+    top: 0;
+    height: 100%;
+    width: 319.96mm;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+#profil #right_mid {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#profil_mid .a_good {
+    text-align: center;
+    margin-bottom: 10mm;
+    color: green;
+}
+#profil_mid .a_bad {
+    text-align: center;
+    margin-bottom: 10mm;
+    color: red;
+}
+.zamowienie {
+    margin: 10mm;
+    background-color: lightblue;
+    border-radius: 4mm;
+    border: 1mm solid darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.zamowienie a {
+    font-size: 6mm;
+    color: darkslateblue;
+    margin-top: 3mm;
+    margin-bottom: 0;
+    margin-left: 4mm;
+    margin-right: 4mm;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+.zamowienie .szczegoly {
+    color: forestgreen;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: normal;
+    font-size: 4mm;
+    margin-bottom: 2mm;
+    text-decoration: underline;
+}
+.zamowienie div {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2mm;
+}
+.zamowienie .szczegoly:hover {
+    color: darkgreen;
+}
+#profil #zam {
+    position: absolute;
+    left: 80.04mm;
+    top: 0;
+    height: 100%;
+    width: 314.96mm;
+    margin-left: 5mm;
+    overflow: auto;
+}
+#profil #zam #zam_buty {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+#profil #zam #zam_dane {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.item {
+    width: 100%;
+    height: 35mm;
+    margin-bottom: 10mm;
+}
+.item .item_all {
+    width: 100%;
+    height: 35mm;
+}
+.item img {
+    height: 35mm;
+    float: left;
+    margin-right: 10mm;
+}
+.item .right {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.item .right h1 {
+    margin-top: 0;
+    font-size: 7mm;
+    padding-left: 45mm;
+}
+.item .right .informacje {
+    width: 100%;
+    font-size: 4mm;
+}
+.item .right .informacje .blok1 {
+    float: left;
+    width: 80%;
+}
+.item .right .informacje .blok1 p {
+    margin-left: 45mm;
+}
+.item .right .informacje .blok2 {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+#zam #info h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 10mm;
+    color: darkslateblue;
+    font-weight: bold;
+    margin-top: 2mm;
+
+}
+#zam #info #p_left {
+    text-align: left;
+}
+#zam #info #p_right {
+    text-align: right;
+}
+#zam #info p {
+    margin: 0;
+    width: 50%;
+    float: left;
+    font-size: 5mm;
+    font-weight: bold;
+    color: darkslateblue;
+    margin-bottom: 5mm;
+}
