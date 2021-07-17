@@ -71,7 +71,6 @@ abstract class SessionControler
                $_SESSION['modules'][$modules[$i]]->draw($a);
            }
 
-        echo "<div>".$_SESSION['info']."</div>";
         echo "</body></html>";
 
     }

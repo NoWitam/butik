@@ -124,7 +124,6 @@ abstract class DataBase
             }
 
             $query = substr($query, 0, -4); // usuniecie ostatniego AND
-            echo $query;
             //////////////////////////
 
              $wynik = mysqli_query($baza,$query);

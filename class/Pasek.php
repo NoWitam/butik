@@ -65,13 +65,15 @@ class Pasek implements Modul
         function szukaj()
         {
         var url = window.location.href;
-        
-        if(url.indexOf('query=') != -1)
-           {
+        var znak = url.substr(35,1);
+		  if(znak == '?' || znak == '')
+		  {
+			if(url.indexOf('query=') != -1)
+            {
                 url = url.substr(0,url.indexOf('query=')-1);
-           } 
+            } 
                 
-        if(url.substr(-1) == '/')
+            if(url.substr(-1) == '/')
             {
                 url += '?query=';
             } 
@@ -80,9 +82,15 @@ class Pasek implements Modul
                 url += '&query=';   
             }
             var query = document.getElementById('szukaj_input').value;
-            url += query;
-
-       location.href= url;
+            url += query;         
+		  }
+		  else
+		  {
+			  url = 'http://www.hubertgolewski.pl/butik/?query=';
+			  url += document.getElementById('szukaj_input').value;
+		  }
+			
+          location.href= url; 
         }
         
         function enter()
@@ -92,8 +100,7 @@ class Pasek implements Modul
             if (e.keyCode == 13)
             {
             szukaj();    
-            }
-              console.log('nie dziala');   
+            }  
            });  
         }
         
